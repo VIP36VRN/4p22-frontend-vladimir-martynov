@@ -1,0 +1,234 @@
+@font-face {
+    font-family: Predator;
+    src: url("../fonts/Predator/predator.ttf");
+}
+
+.title__table {
+    text-align: center;
+}
+
+.p__table {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+    color: aliceblue;
+    font-weight: 900;
+    height: 50px;
+    padding: 3px;
+    border-radius: 5px
+}
+
+td.action:hover {
+    transform: scale(1.3);
+    transition: 0.4s;
+    border-radius: 15px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+table {
+    margin: 0px auto;
+}
+
+td form button.element {
+    all: unset;
+    cursor: pointer;
+}
+
+header p {
+    font-size: 22px;
+}
+
+caption {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+.orange {
+    background-color: rgb(211,120,69);
+}
+
+.biruza {
+    background-color: rgb(79,156,152);
+}
+
+.yellow {
+    background-color: rgb(199,179,83);
+}
+
+.darkgreen {
+    background-color: rgb(123,153,88);
+}
+
+.green {
+    background-color: rgb(163,165,100);
+}
+
+.brawngreen {
+    background-color: rgb(163,165,100);
+}
+
+.grey {
+    background-color: rgb(126,138,118);
+}
+
+.blue {
+    background-color: rgb(74,141,183);
+}
+
+.red {
+    background-color: rgb(165,78,70);
+}
+
+.purple {
+    background-color: rgb(128,88,157);
+}
+
+.textright {
+    text-align: right;
+    padding-right: 25px;
+    color: black;
+}
+
+.border_left {
+    border-radius: 75px 0px 0px 10px;
+    z-index: 0;
+}
+
+.border_left2 {
+    border-radius: 10px 0px 0px 75px;
+    z-index: 0;
+}
+
+.border_left::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 54px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 1.2px;
+    right: 0%;
+    z-index: 0;
+    background-color: white;
+}
+
+.actiniy {
+    border-radius: 50px 0px 0px 50px;
+    z-index: 2;
+}
+
+.conteiner {
+    position: relative;
+    z-index: 0;
+}
+
+.border_left2::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 54px;
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+    top: 1.2px;
+    right: 0%;
+    z-index: 0;
+    background-color: white;
+}
+
+button {
+    background-color: rgb(160, 92, 19);
+    border: none;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(234, 177, 97);
+    margin-right: 15px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(114, 73, 29);
+    box-shadow: 5px 5px 5px 5px rgb(151, 114, 62);
+}
+
+form {
+    display: inline-block;
+}
+
+.index_page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    padding-top: 300px;
+}
+
+.index_page li {
+    list-style-type: none;
+}
+
+.start {
+    width: 300px;
+    height: 300px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_form {
+    margin: 15px 5px auto 5px;
+    width: 100%; 
+}
+
+.footer_button {
+    width: 99%;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.img {
+    display: block;
+    margin: 0px auto;
+}
+
+.list_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bgimg {
+    background-image: url("../img/w1.jpg");
+    background-size: 100%;
+}
+
+.iframe_h1 {
+    text-align: center;
+    color: rgb(236, 110, 0);
+    font-family: Predator;
+    font-size: 60px;
+}
+
+.iframe_h2 {
+    text-align: center;
+    color: rgb(255, 204, 0);
+    font-family: Predator;
+    font-size: 40px;
+    font-weight: 700;
+}
