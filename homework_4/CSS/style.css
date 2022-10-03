@@ -1,0 +1,108 @@
+.header {
+    width: auto;
+    height: 30px;
+    border-radius: 5%;
+    background: linear-gradient(90deg ,rgba(208, 246, 241, 0.784) , rgba(126, 95, 217, 0.468));
+    
+}
+.headline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+    
+}
+.body {
+    background-image: url(./img/backgraund.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+/* .h1 {
+    animation-duration: 8s;
+    animation-name: slidein;
+    width: 15em;
+    position: absolute;
+    left: 17%;
+    font-size:25px;
+    color:rgb(65, 168, 202)!important;
+    text-shadow: 2px 2px 2px #000;
+}
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 200%;
+}
+to {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+} */
+.h3 {
+    animation-duration: 6s;
+    animation-name: slidein;
+    width: 13em;
+    height: 83px;
+    font-size:25px;
+    color:rgb(209, 202, 202)!important;
+    text-shadow: 3px 3px 3px rgb(88, 85, 85);
+}
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 200%;
+}
+to {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px;
+	column-gap: 10px;
+    justify-content: center;
+
+}
+
+.product {
+	padding: 10px;
+	height: 150px;
+	width: 400px;
+	border: 1px solid red;
+	justify-content: space-around;
+	display: flex;
+    background-color: antiquewhite;
+}
+
+.product_img {
+	height: 100%;
+	border: 1px solid black;
+}
+
+.product_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    color: rgb(30, 24, 36);
+    text-shadow: 3px 3px 3px rgb(88, 85, 85);
+}
+.button {
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Roboto, Verdana, Tahoma, sans;
+    padding: 10px 12px;
+    border-radius: 100px;
+    color: rgb(31, 27, 27);
+    background-color: rgba(108, 68, 145, 0.641);
+}
+.footer {
+    width: auto;
+    height: 40px;
+    border-radius: 6%;
+    background: linear-gradient(90deg ,rgba(208, 246, 241, 0.784) , rgba(126, 95, 217, 0.468));   
+}
