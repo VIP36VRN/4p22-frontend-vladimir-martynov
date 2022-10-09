@@ -124,4 +124,130 @@
   padding: 10px;
   color: rgba(255, 255, 255, 0.8);
   
+}* {
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+  height: 100%;
+}
+.header {
+  flex: 0 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+}
+.h1 {
+  margin: 0;
+  padding: 0;
+}
+.header__title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+  font-weight: 400;
+  color: antiquewhite;
+  align-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0px 5px 5px;
+  text-align: center;
+}
+.header__wrapper {
+  position: fixed;
+  background-color: #0461bd;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 10%;
+  display: flex;
+}
+.main {
+  flex: 1 0 auto;
+}
+
+.aside {
+  position: fixed;
+  top: 120px;
+  left: 0;
+  font-size: 30px;
+}
+.aside__wrapper {
+  background: linear-gradient(90deg ,rgba(208, 246, 241, 0.784) , rgba(126, 95, 217, 0.468));
+}
+.aside__content {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  border-right: 2px solid #c4c4c4;
+  padding: 15px 20px 300px 20px;
+}
+.aside__title {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 23px;
+}
+.aside__list-item {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 12px;
+}
+.aside__list-link {
+  color: #3c0bff;
+}
+.directory {
+  position: absolute;
+  top: 100px;
+  left: 350px;
+  width: 60%;
+  padding-bottom: 100px;
+  z-index: -3;
+}
+.directory__wrapper {
+  background-color: #fff;
+}
+.directory__element {
+  background-color: #fff;
+}
+.directory__element-subtitle {
+  position: fixed;
+  position: sticky;
+  top: 113px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  text-transform: uppercase;
+  background-color: rgb(75, 24, 218);
+  display: block;
+  width: 100%;
+  color: #fff;
+  padding: 6px 6px 6px 10px;
+}
+.directory__element-list {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-size: 24px;
+  padding: 8px;
+}
+.directory__element-item {
+  margin-bottom: 10px;
+}
+.footer {
+  flex: 0 0 1;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgb(11, 45, 180);
+}
+.footer__wrapper {
+  background-color: #000;
+  width: 100%;
+}
+.footer__text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  font-weight: 800;
+  letter-spacing: 3px;
+  padding: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  
 }

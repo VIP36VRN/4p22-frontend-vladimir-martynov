@@ -11,8 +11,9 @@
 .container {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
+  max-height: 100%;
   position: relative;
+  height: 100%;
 }
 .h1 {
   margin: 0;
@@ -20,14 +21,14 @@
 }
 .header__title {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 45px;
-  font-weight: 400;
+  font-size: 100%;
+  /* font-weight: 40em; */
   color: antiquewhite;
   align-content: center;
   top: 0;
   left: 0;
   width: 100%;
-  padding: 5px 0px 5px 5px;
+  padding: 2em 0em 3em 2em;
   text-align: center;
 }
 .header__wrapper {
@@ -36,8 +37,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   display: flex;
+  max-width: 100%;
+
 }
 .main {
   flex: 1 0 auto;
@@ -48,6 +51,8 @@
   top: 120px;
   left: 0;
   font-size: 30px;
+  width: 30%;
+  max-width: 100%;
 }
 .aside__wrapper {
   background: linear-gradient(90deg ,rgba(208, 246, 241, 0.784) , rgba(126, 95, 217, 0.468));
@@ -56,15 +61,17 @@
   font-family: Arial, Helvetica, sans-serif, sans-serif;
   border-right: 2px solid #c4c4c4;
   padding: 15px 20px 300px 20px;
+
 }
 .aside__title {
   font-weight: 400;
-  font-size: 28px;
-  margin-bottom: 23px;
+  font-size: 100%;
+  margin-bottom: 24px;
+  text-align: center;
 }
 .aside__list-item {
-  font-size: 24px;
-  font-weight: 200;
+  font-size: 60%;
+  font-weight: 100;
   margin-bottom: 12px;
 }
 .aside__list-link {
@@ -73,10 +80,11 @@
 .directory {
   position: absolute;
   top: 100px;
-  left: 350px;
-  width: 60%;
+  right: 0;
+  width: 65%;
   padding-bottom: 100px;
-  z-index: -3;
+  z-index: -1;
+  max-width: 100%;
 }
 .directory__wrapper {
   background-color: #fff;
@@ -87,19 +95,22 @@
 .directory__element-subtitle {
   position: fixed;
   position: sticky;
-  top: 113px;
+  top: 115px;
   font-family: Arial, Helvetica, sans-serif, sans-serif;
   text-transform: uppercase;
   background-color: rgb(75, 24, 218);
   display: block;
-  width: 100%;
+  /* width: 100%; */
   color: #fff;
-  padding: 6px 6px 6px 10px;
+  padding: 6px 6px 6px 15px;
+  max-width: 100%;
+  font-size: 25px;
 }
 .directory__element-list {
   font-family: Arial, Helvetica, sans-serif, sans-serif;
   font-size: 24px;
   padding: 8px;
+  left: 50%;
 }
 .directory__element-item {
   margin-bottom: 10px;
@@ -123,5 +134,4 @@
   letter-spacing: 3px;
   padding: 10px;
   color: rgba(255, 255, 255, 0.8);
-  
 }
