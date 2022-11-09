@@ -1,13 +1,8 @@
 'use strict'
-
-
-// ------------- call function in code -------------- //
-
 const fibonacci = function makeFibonacciFunction() {
     let previousNumber = 0;
     let nextNumber = 1;
     
-
     return function () {
         let result = previousNumber + nextNumber;
         console.log(previousNumber);
