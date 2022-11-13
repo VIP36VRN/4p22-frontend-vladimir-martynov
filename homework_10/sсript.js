@@ -18,12 +18,12 @@ result.data.forEach((element, index, array) => {
 });
 
 console.log('-----------');
-console.log ('Пункт №1:');
+console.log ('Пункт №2:');
 console.log('-----------');
 console.log (surname);
 
 console.log('-----------');
-console.log ('Пункт №2:');
+console.log ('Пункт №5:');
 console.log('-----------');
 console.log(Object.keys(result.data[`0`]).join(`, `));
 
